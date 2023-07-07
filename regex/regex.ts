@@ -10,3 +10,10 @@ if (word.match(regExp)) {
     console.log(`${word} misspelled`);
 }
 
+let regex:any = /[A-Z]{4,10}/;
+let username:string = "JOHN";
+if(username.match(regex)){
+    console.log("Hello " + username);
+}else {
+    console.log("Name 4 to 10 Uppercase only !");
+}

@@ -7,3 +7,7 @@ console.log(
         isInStock == true ? 'Available' : 'Out of Stock'
     }`
 );
+
+console.log(`Test Quokka`);
+
+

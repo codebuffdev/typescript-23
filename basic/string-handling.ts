@@ -16,12 +16,15 @@ if (firstCharCode >= 65 && firstCharCode <= 90) {
 
 //startswith()
 let funcName: string = 'btnSubmit';
+// @ts-ignore
 console.log(funcName.startsWith('btn')); // true
 
 let clsName: string = 'bg-primary';
+// @ts-ignore
 if (clsName.startsWith('form')) {
     console.log(`You Defined a Form Class`);
-} else if (clsName.startsWith('btn')) {
+} // @ts-ignore
+else if (clsName.startsWith('btn')) {
     console.log(`You Defined a Button Class`);
 } else {
     console.log(`You are using Miscellaneous class ${clsName}`);
@@ -29,15 +32,15 @@ if (clsName.startsWith('form')) {
 
 // endsWith()
 let className: string = 'text-primary';
-if (className.endsWith('center')) {
-    console.log(`You Defined an Alignment Class`);
-} else if (className.endsWith('primary')) {
-    console.log(`You Defined Contextual Class`);
-} else if (className.endsWith('y')) {
-    console.log(`You Defined Contextual Class`);
-} else {
-    console.log(`You are using Miscellaneous class ${className}`);
-}
+// if (className.endsWith('center')) {
+//     console.log(`You Defined an Alignment Class`);
+// } else if (className.endsWith('primary')) {
+//     console.log(`You Defined Contextual Class`);
+// } else if (className.endsWith('y')) {
+//     console.log(`You Defined Contextual Class`);
+// } else {
+//     console.log(`You are using Miscellaneous class ${className}`);
+// }
 
 //indexOf
 let email: string = 'john@gmail.com';
@@ -48,12 +51,12 @@ if (email.indexOf('@') == -1) {
 }
 
 //includes("str")
-let msg: string = 'Welcome to JavaScript String Methods';
-if (msg.includes('TypeScript')) {
-    console.log(`You are using TypeScript`);
-} else if (msg.includes('JavaScript')) {
-    console.log(`You are using JavaScript`);
-}
+// let msg: string = 'Welcome to JavaScript String Methods';
+// if (msg.includes('TypeScript')) {
+//     console.log(`You are using TypeScript`);
+// } else if (msg.includes('JavaScript')) {
+//     console.log(`You are using JavaScript`);
+// }
 
 //search("str")
 let msg1: string = 'Welcome to JavaScript String Methods.';
